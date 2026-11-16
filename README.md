@@ -23,3 +23,7 @@ sends is on [skilltotal.com/privacy](https://skilltotal.com/privacy).
 SkillTotal's release publishes it: each version is one commit, tagged with the SkillTotal release
 it came from. The plugin itself is in [`plugins/skilltotal`](plugins/skilltotal); its README says what each
 check shows and the settings it reads. Changes made here are overwritten by the next release.
+
+## License
+
+MIT, see [LICENSE](LICENSE).

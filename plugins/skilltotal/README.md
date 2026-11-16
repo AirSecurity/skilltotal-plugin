@@ -56,3 +56,7 @@ Then make a key at skilltotal.com/account/settings/api-keys (expiry: **Never**) 
 ## Development
 
 The hook's source is `packages/agent-hook`. `hooks/skilltotal-hook.mjs` is its bundle, so the plugin runs on Node with nothing installed; rebuild it with `bun run plugin:build` (a unit test fails while it's stale). Try it against a local stack with `claude --plugin-dir plugins/skilltotal` and `SKILLTOTAL_API_URL=http://127.0.0.1:4300`.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
