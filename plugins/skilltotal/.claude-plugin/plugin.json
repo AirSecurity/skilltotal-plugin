@@ -1,6 +1,6 @@
 {
   "name": "skilltotal",
-  "version": "0.1.112",
+  "version": "0.1.117",
   "description": "SkillTotal by AIR checks every skill before it runs and every skill install before it starts, and shows you the verdict. It sends a content hash, the skill's name or the install link, never the files.",
   "author": {
     "name": "AIR Security",
