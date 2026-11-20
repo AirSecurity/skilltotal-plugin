@@ -2,7 +2,10 @@
   "mcpServers": {
     "skilltotal": {
       "type": "http",
-      "url": "${SKILLTOTAL_API_URL:-https://api.skilltotal.com}/mcp"
+      "url": "${SKILLTOTAL_API_URL:-https://api.skilltotal.com}/mcp",
+      "headers": {
+        "X-SkillTotal-Client": "claude-plugin"
+      }
     }
   }
 }
